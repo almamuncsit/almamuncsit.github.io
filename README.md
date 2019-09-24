@@ -1,2 +1,2 @@
-# artofcse.github.io
+# Art Of CSE
 Welcome to Art of CSE
