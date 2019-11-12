@@ -78,7 +78,7 @@ p.lead {
   margin-bottom: 18px;
 }
 .dev-icons {
-  font-size: 18px;
+  font-size: 16px;
 }
 .dev-icons .list-inline-item {
   display: inline-block;
@@ -182,4 +182,8 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+.card-img {
+  border-radius: 0px;
+  height: 100px
 }
