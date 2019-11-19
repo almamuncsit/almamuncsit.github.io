@@ -107,22 +107,32 @@
 
         <div class="subheading mb-3">Connect with me</div>
         <div class="social-icons">
-          <a target="_blank" href="https://github.com/almamuncsit">
+          <a target="_blank" href="https://github.com/almamuncsit" 
+          data-toggle="tooltip" data-placement="top" title="Github">
             <i class="fab fa-github"></i>
           </a>
-          <a target="_blank" href="https://www.youtube.com/user/almamuncsit">
+          <a target="_blank" href="https://www.hackerrank.com/almamuncsit"
+          data-toggle="tooltip" data-placement="top" title="Hacker Rank">
+            <i class="fab fa-hackerrank"></i>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/user/almamuncsit"
+          data-toggle="tooltip" data-placement="top" title="YouTube">
             <i class="fab fa-youtube"></i>
           </a>
-          <a target="_blank" href="https://www.slideshare.net/AlMamunSarkar">
+          <a target="_blank" href="https://www.slideshare.net/AlMamunSarkar"
+          data-toggle="tooltip" data-placement="top" title="SlideShare">
             <i class="fab fa-slideshare"></i>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/almamuncsit/">
+          <a target="_blank" href="https://www.linkedin.com/in/almamuncsit/"
+          data-toggle="tooltip" data-placement="top" title="LinkedIn">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a target="_blank" href="https://twitter.com/almamuncsit">
+          <a target="_blank" href="https://twitter.com/almamuncsit"
+          data-toggle="tooltip" data-placement="top" title="Twitter">
             <i class="fab fa-twitter"></i>
           </a>
-          <a target="_blank" href="https://www.facebook.com/almamun.csit">
+          <a target="_blank" href="https://www.facebook.com/almamun.csit"
+          data-toggle="tooltip" data-placement="top" title="Facebook">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
@@ -727,6 +737,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 
 </body>
 
