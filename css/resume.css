@@ -7,7 +7,7 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #525356;
 }
 
 @media (min-width: 992px) {
@@ -85,6 +85,7 @@ p.lead {
   background: #f1f1f1;
   padding: 1px 9px;
   border-radius: 4px;
+  margin-bottom: 9px;
 }
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
