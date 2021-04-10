@@ -82,7 +82,7 @@ p.lead {
 }
 .dev-icons .list-inline-item {
   display: inline-block;
-  background: #f1f1f1;
+  background: #e8e6e6bf;
   padding: 1px 9px;
   border-radius: 4px;
   margin-bottom: 9px;
@@ -187,4 +187,7 @@ a:hover, a:focus, a:active {
 .card-img {
   border-radius: 0px;
   height: 100px
+}
+.card-body {
+  padding: 7px 11px;
 }
